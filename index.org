@@ -1,0 +1,115 @@
+#+TITLE: Seminar on Linux
+#+EMAIL: reddevil.sabin@gmail.com 
+#+OPTIONS: H:2 num:nil toc:nil html-postamble:nil  <:t 
+#+OPTIONS: reveal_center:nil reveal_control:t reveal_height:-1
+#+OPTIONS: reveal_history:nil reveal_keyboard:t reveal_overview:t
+#+OPTIONS: reveal_progress:t reveal_rolling_links:nil
+#+OPTIONS: reveal_single_file:t reveal_slide_number:"c"
+#+OPTIONS: reveal_title_slide:auto reveal_width:-1
+#+REVEAL_MARGIN: -1
+#+REVEAL_MIN_SCALE: -1
+#+REVEAL_MAX_SCALE: -1
+#+REVEAL_ROOT: file:///mnt/hackit/codeds/github-repos/reveal.js/reveal.js
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: night
+#+REVEAL_HLEVEL:1 
+#+REVEAL_TITLE_SLIDE_BACKGROUND: 
+#+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE:
+#+REVEAL_TITLE_SLIDE_BACKGROUND_POSITION:
+#+REVEAL_TITLE_SLIDE_BACKGROUND_TRANSITION:
+#+REVEAL_MATHJAX_URL: https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+#+REVEAL_HIGHLIGHT_CSS: %r/lib/css/zenburn.css
+#+REVEAL_PREAMBLE:t
+#+REVEAL_HEAD_PREAMBLE:nil
+#+REVEAL_POSTAMBLE:nil
+#+REVEAL_EXTRA_CSS:./css/custom.css
+
+
+
+* 
+  :PROPERTIES:
+  :reveal_background: ./images/linux_and_windows.jpg
+	:reveal_background_size: 800px
+  :reveal_background_trans: linear
+  :END:
+* Short Story 
+	#+Begin_QUOTE
+	How we ended up using Linux!!
+	#+END_QUOTE
+	
+* Today's Agenda!!!  
+	- Free And Open Source Softwares 
+	- What is Linux
+	- History and Evolution
+	- Distro Watch
+	- A little more about Linux
+	- How it works 
+
+* What's Free Software? 
+	#+BEGIN_QUOTE
+	The users have the freedom to run,copy,distribute,study,change and improve the software.
+	#+END_QUOTE
+
+* What is Linux ?
+	#+BEGIN_QUOTE
+	Linux is the open source computer operating system based on UNIX.
+	#+END_QUOTE
+	- "Linux" == "Kernel" + set of tools,services and programs
+
+* History and Evolution 
+  :PROPERTIES:
+  :reveal_background: ./images/linus.jpeg
+	:reveal_background_size: 300px
+  :reveal_background_trans: slide
+  :END:
+
+** 
+	#+BEGIN_EXPORT html
+  <div id="right">
+  #+END_EXPORT
+  - Project was started in April 1991 but Announced to the world in August 1991
+  #+BEGIN_EXPORT html
+  </div>
+  #+END_EXPORT
+	
+* Where is Linux?
+	#+ATTR_REVEAL: :frag frag-style
+	#+BEGIN_QUOTE
+	It's Everywhere.
+	#+END_QUOTE
+	#+BEGIN_QUOTE
+	Phone,Cars,Refrigerators,TVs,most of the internet, supercomputers, world's stock exchanges 
+	#+END_QUOTE
+	#+BEGIN_QUOTE
+	Desktop,Server,Embedded Systems all around the world
+	#+END_QUOTE
+	#+BEGIN_QUOTE
+	Submarines,Missile systems,Nuclear power plants,Satellites
+	#+END_QUOTE
+
+* Some Statisticts 
+	- Of the top one million domains,Linux is the operating system for 95% of them
+	- Over 80% of Android smartphones run Anroid,which is based on linux kernel
+	- Of the top 500 fastest supercomputers in the world,more than 98% of them run on Linux
+	- Most of the global markets are running on Linux,New York stock exchange,London stock exchange,Tokyo stock exchange and more 
+	- More than 75% of cloud-enabled enterprises use Linux as their primary cloud platform
+	- Amazon,Facebook,Google and most leaders of the internet use Linux
+
+* Why use Linux?
+	*So why bother learning a completely different computing environment?*
+
+	#+ATTR_REVEAL: :frag frag-style
+	- Because It's Open Source
+	- Zero Cost Of Entry
+	- Distributed under open source license
+	- Stable, reliable and dependable 
+	- Huge community
+	- Highly Customizable 
+		
+	
+* 
+  :PROPERTIES:
+  :reveal_background: ./images/github-linux.png
+	:reveal_background_size: 800px
+  :reveal_background_trans: linear
+  :END:
