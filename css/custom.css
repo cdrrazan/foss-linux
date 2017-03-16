@@ -2,7 +2,7 @@
   left:-8.33%;
   text-align: left;
   float: left;
-  width:50%;
+  width:70%;
   z-index:-10;
 }
 
@@ -12,5 +12,9 @@
   float: right;
   text-align: right;
   z-index:-10;
-  width:50%;
+  width:70%;
+}
+
+.reveal pre {
+		font-size: 1em;
 }

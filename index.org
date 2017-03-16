@@ -1,7 +1,7 @@
-#+TITLE: Seminar on Linux
+#+TITLE: Free And Open Source Softwares And Linux
 #+EMAIL: reddevil.sabin@gmail.com 
-#+OPTIONS: H:2 num:nil toc:nil html-postamble:nil  <:t 
-#+OPTIONS: reveal_center:nil reveal_control:t reveal_height:-1
+#+OPTIONS: H:2 num:nil toc:nil  <:t 
+#+OPTIONS: reveal_center:t reveal_control:t reveal_height:-1
 #+OPTIONS: reveal_history:nil reveal_keyboard:t reveal_overview:t
 #+OPTIONS: reveal_progress:t reveal_rolling_links:nil
 #+OPTIONS: reveal_single_file:t reveal_slide_number:"c"
@@ -13,42 +13,73 @@
 #+REVEAL_TRANS: linear
 #+REVEAL_THEME: night
 #+REVEAL_HLEVEL:1 
-#+REVEAL_TITLE_SLIDE_BACKGROUND: 
-#+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE:
+# #+REVEAL_TITLE_SLIDE_BACKGROUND: ./images/penguin.png
+#+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE:200px
 #+REVEAL_TITLE_SLIDE_BACKGROUND_POSITION:
 #+REVEAL_TITLE_SLIDE_BACKGROUND_TRANSITION:
 #+REVEAL_MATHJAX_URL: https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 #+REVEAL_HIGHLIGHT_CSS: %r/lib/css/zenburn.css
 #+REVEAL_PREAMBLE:t
-#+REVEAL_HEAD_PREAMBLE:nil
-#+REVEAL_POSTAMBLE:nil
+#+REVEAL_HEAD_PREAMBLE:t
+#+REVEAL_POSTAMBLE:t
 #+REVEAL_EXTRA_CSS:./css/custom.css
 
 
 
-* 
+
+* ABOUT US 
+	#+BEGIN_SRC js
+  	bio: {
+  			"name": "sabin nepal",
+  			"study": ["seventh semester","B.Sc.CSIT","NIST Banepa"],
+  			"github": "neymarsabin",
+  			"website": "https://neymarsabin.me"
+  	}
+	#+END_SRC
+	#+BEGIN_SRC js 
+  	bio: {
+  			"name": "Rajan Bhattrai",
+  			"study": ["seventh semester","B.Sc.CSIT","NIST Banepa"],
+  			"github": "cdrrazan",
+  			"website": "https://cdrrazan.me"
+  	}
+	#+END_SRC
+
+* Word of Caution
   :PROPERTIES:
   :reveal_background: ./images/linux_and_windows.jpg
 	:reveal_background_size: 800px
   :reveal_background_trans: linear
   :END:
-* Short Story 
+
+* 
 	#+Begin_QUOTE
 	How we ended up using Linux!!
 	#+END_QUOTE
 	
-* Today's Agenda!!!  
-	- Free And Open Source Softwares 
-	- What is Linux
-	- History and Evolution
-	- Distro Watch
-	- A little more about Linux
-	- How it works 
+# * Today's Agenda!!!  
+# 	- Free And Open Source Softwares 
+# 	- What is Linux
+# 	- History and Evolution
+# 	- Distro Watch
+# 	- A little more about Linux
+# 	- How it works 
 
 * What's Free Software? 
 	#+BEGIN_QUOTE
 	The users have the freedom to run,copy,distribute,study,change and improve the software.
 	#+END_QUOTE
+	 - Software that respects user's freedom and community
+	 - Matter Of Liberty Not Price, which everyone deserves
+
+* Software Freedoms  
+	- Freedom 0: Run The Program As You Wish
+	- Freedom 1: Access the source code, study how program works and change it
+
+* Software Freedoms 
+	- Freedom 2: Redistribute copies so you can help your neighbour
+	- Freedom 3: Distribute copies of the modified versions 
+
 
 * What is Linux ?
 	#+BEGIN_QUOTE
@@ -63,15 +94,9 @@
   :reveal_background_trans: slide
   :END:
 
-** 
-	#+BEGIN_EXPORT html
-  <div id="right">
-  #+END_EXPORT
+* Long History Short 
   - Project was started in April 1991 but Announced to the world in August 1991
-  #+BEGIN_EXPORT html
-  </div>
-  #+END_EXPORT
-	
+		
 * Where is Linux?
 	#+ATTR_REVEAL: :frag frag-style
 	#+BEGIN_QUOTE
