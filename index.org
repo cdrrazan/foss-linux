@@ -1,7 +1,7 @@
 #+TITLE: Free And Open Source Softwares And Linux
 #+EMAIL: reddevil.sabin@gmail.com 
 #+OPTIONS: H:2 num:nil toc:nil  <:t 
-#+OPTIONS: reveal_center:t reveal_control:t reveal_height:-1
+#+OPTIONS: reveal_center:nil reveal_control:t reveal_height:-1
 #+OPTIONS: reveal_history:nil reveal_keyboard:t reveal_overview:t
 #+OPTIONS: reveal_progress:t reveal_rolling_links:nil
 #+OPTIONS: reveal_single_file:t reveal_slide_number:"c"
@@ -80,12 +80,47 @@
 	- Freedom 2: Redistribute copies so you can help your neighbour
 	- Freedom 3: Distribute copies of the modified versions 
 
+* Free Software != Freeware
+  :PROPERTIES:
+  :reveal_background: ./images/free.png
+	:reveal_background_size: 400px
+  :reveal_background_trans: linear
+  :END:
+
+
+* What's Open Source? 
+	- Developed as public collaboration and made publicly available
+	- Technically Superior than Proprietary Softwares
+
+
+* Open Source vs Free Softwares 
+	
+* Some Awesome Open Source Projects 
+	|-----------------------+-----------------+--------------|
+	| Programming languages | Frameworks      | Applications |
+	|-----------------------+-----------------+--------------|
+	| GCC = C,C++,Go        | Bootstrap       | Docker       |
+	| Java                  | AngularJS       | Vagrant      |
+	| Lisp                  | Spring          | Atom         |
+	| Perl                  | Ionic Framework | EMACS        |
+	| C#                    | ReactJS         | MongoDB      |
+	| Python                | Wordpress       | MySql        |
+	| Ruby                  | Rails           | Apache Spark |
+	| Bash Shell            | NodeJS          | Redis        |
+	
+* 
+#+BEGIN_SRC sh
+	apt-get source linux-image-$(uname -r)
+#+END_SRC
 
 * What is Linux ?
 	#+BEGIN_QUOTE
 	Linux is the open source computer operating system based on UNIX.
 	#+END_QUOTE
 	- "Linux" == "Kernel" + set of tools,services and programs
+	- Also called GNU/Linux 
+	- Developed In Collaboration Of People Around The World
+	- More than 18 million lines of code 
 
 * History and Evolution 
   :PROPERTIES:
@@ -94,31 +129,24 @@
   :reveal_background_trans: slide
   :END:
 
-* Long History Short 
-  - Project was started in April 1991 but Announced to the world in August 1991
-		
+* 
+  - Started = April 1991, Announced = August 1991
+	- Free And Open Source Alternative To *Minix*
+	- Originally named: Freak + x = "Freax"
+
 * Where is Linux?
 	#+ATTR_REVEAL: :frag frag-style
 	#+BEGIN_QUOTE
 	It's Everywhere.
 	#+END_QUOTE
-	#+BEGIN_QUOTE
-	Phone,Cars,Refrigerators,TVs,most of the internet, supercomputers, world's stock exchanges 
-	#+END_QUOTE
-	#+BEGIN_QUOTE
-	Desktop,Server,Embedded Systems all around the world
-	#+END_QUOTE
-	#+BEGIN_QUOTE
-	Submarines,Missile systems,Nuclear power plants,Satellites
-	#+END_QUOTE
 
-* Some Statisticts 
+* Some Stats 
 	- Of the top one million domains,Linux is the operating system for 95% of them
-	- Over 80% of Android smartphones run Anroid,which is based on linux kernel
-	- Of the top 500 fastest supercomputers in the world,more than 98% of them run on Linux
-	- Most of the global markets are running on Linux,New York stock exchange,London stock exchange,Tokyo stock exchange and more 
+	- Over 86.2% of smartphones run Anroid
+	- Among Top 500 Fastest Supercomputers In The World,More Than 98% Of Them Run On Linux
+	- 99.8% mainframe computers use Linux
 	- More than 75% of cloud-enabled enterprises use Linux as their primary cloud platform
-	- Amazon,Facebook,Google and most leaders of the internet use Linux
+	- Amazon,Facebook,Google and many more...
 
 * Why use Linux?
 	*So why bother learning a completely different computing environment?*
@@ -126,15 +154,46 @@
 	#+ATTR_REVEAL: :frag frag-style
 	- Because It's Open Source
 	- Zero Cost Of Entry
-	- Distributed under open source license
-	- Stable, reliable and dependable 
-	- Huge community
-	- Highly Customizable 
-		
-	
+	- Stable, Reliable and Secure 
+	- Huge community and very rapid bug fixes
+	- Package Management
+	- Compatibility
+	- Fun and Easy to use
+
 * 
   :PROPERTIES:
   :reveal_background: ./images/github-linux.png
 	:reveal_background_size: 800px
   :reveal_background_trans: linear
   :END:
+
+* 	
+  :PROPERTIES:
+  :reveal_background: ./images/linux-timeline.svg
+	:reveal_background_size: 900px
+  :reveal_background_trans: linear
+  :END:
+
+* Linux Vs Other Operating Systems
+	
+
+
+* HoW To Get Started?
+	- Determine ur Use Case
+	- Learn the basics
+	- Grab a distribution
+	- Start with a hypervisor and a book
+
+* What's a distribution?
+  :PROPERTIES:
+  :reveal_background: ./images/linuxdistros.jpg
+  :reveal_background_trans: linear
+	:reveal_background_size: 900px
+  :END:
+
+* Some Drawbacks Not Linux?
+	- Gaming
+	- For purpose specific softwares
+	- Linux is Ugly
+
+* 
