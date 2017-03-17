@@ -30,8 +30,8 @@
 * ABOUT US 
 	#+BEGIN_SRC js
   	bio: {
-  			"name": "sabin nepal",
-  			"study": ["seventh semester","B.Sc.CSIT","NIST Banepa"],
+  			"name": "Sabin Nepal",
+  			"study": ["Seventh Semester","B.Sc.CSIT","NIST Banepa"],
   			"github": "neymarsabin",
   			"website": "https://neymarsabin.me"
   	}
@@ -39,7 +39,7 @@
 	#+BEGIN_SRC js 
   	bio: {
   			"name": "Rajan Bhattrai",
-  			"study": ["seventh semester","B.Sc.CSIT","NIST Banepa"],
+  			"study": ["Seventh Semester","B.Sc.CSIT","NIST Banepa"],
   			"github": "cdrrazan",
   			"website": "https://cdrrazan.me"
   	}
@@ -92,7 +92,6 @@
 	- Developed as public collaboration and made publicly available
 	- Technically Superior than Proprietary Softwares
 
-
 * Open Source vs Free Softwares 
 	
 * Some Awesome Open Source Projects 
@@ -109,10 +108,6 @@
 	| Bash Shell            | NodeJS          | Redis        |
 	
 * 
-#+BEGIN_SRC sh
-	apt-get source linux-image-$(uname -r)
-#+END_SRC
-
 * What is Linux ?
 	#+BEGIN_QUOTE
 	Linux is the open source computer operating system based on UNIX.
@@ -196,4 +191,47 @@
 	- For purpose specific softwares
 	- Linux is Ugly
 
+* Linux File System
+  :PROPERTIES:
+  :reveal_background: ./images/Linuxfilesystem.jpg
+  :reveal_background_trans: linear
+	:reveal_background_size: 800px
+  :END:
+
 * 
+  :PROPERTIES:
+  :reveal_background: ./images/linuxbootprocess.png
+  :reveal_background_trans: linear
+	:reveal_background_size: 700px
+  :END:
+
+* Conclusion 
+	- Linux is the most prolific software ever written
+  #+BEGIN_SRC sh
+  apt-get source linux-image-$(uname -r)
+  #+END_SRC
+
+
+* For more information 
+	#+BEGIN_SRC js 
+  	info: {
+  			rajan: {
+    				"twitter": "@cdrrazan",
+    				"github": "cdrrazan",
+    				"email": "social@cdrrazan.me"
+  			},
+  			sabin: {
+  					"github": "neymarsabin"
+  			}
+  	}
+	#+END_SRC
+	
+	- Join *dev-circle-np.github.io*
+	
+
+	
+* Thank You
+	#+BEGIN_QUOTE
+	Any Questions??
+	#+END_QUOTE
+	
