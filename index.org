@@ -1,6 +1,6 @@
 #+TITLE: Free And Open Source Softwares And Linux
-#+EMAIL: reddevil.sabin@gmail.com 
-#+OPTIONS: H:2 num:nil toc:nil  <:t 
+#+EMAIL: reddevil.sabin@gmail.com
+#+OPTIONS: H:2 num:nil toc:nil  <:t
 #+OPTIONS: reveal_center:nil reveal_control:t reveal_height:-1
 #+OPTIONS: reveal_history:nil reveal_keyboard:t reveal_overview:t
 #+OPTIONS: reveal_progress:t reveal_rolling_links:nil
@@ -12,7 +12,7 @@
 #+REVEAL_ROOT: file:///mnt/hackit/codeds/github-repos/reveal.js/reveal.js
 #+REVEAL_TRANS: linear
 #+REVEAL_THEME: night
-#+REVEAL_HLEVEL:1 
+#+REVEAL_HLEVEL:1
 # #+REVEAL_TITLE_SLIDE_BACKGROUND: ./images/penguin.png
 #+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE:200px
 #+REVEAL_TITLE_SLIDE_BACKGROUND_POSITION:
@@ -27,21 +27,21 @@
 
 
 
-* ABOUT US 
+* ABOUT US
 	#+BEGIN_SRC js
   	bio: {
   			"name": "Sabin Nepal",
-  			"study": ["Seventh Semester","B.Sc.CSIT","NIST Banepa"],
+  			"study": ["B.Sc.CSIT","NIST College"],
   			"github": "neymarsabin",
-  			"website": "https://neymarsabin.me"
+  			"website": "https://neymarsabin.com"
   	}
 	#+END_SRC
-	#+BEGIN_SRC js 
+	#+BEGIN_SRC js
   	bio: {
   			"name": "Rajan Bhattrai",
-  			"study": ["Seventh Semester","B.Sc.CSIT","NIST Banepa"],
+  			"study": ["B.Sc.CSIT","NIST College"],
   			"github": "cdrrazan",
-  			"website": "https://cdrrazan.me"
+  			"website": "https://cdrrazan.com"
   	}
 	#+END_SRC
 
@@ -52,33 +52,33 @@
   :reveal_background_trans: linear
   :END:
 
-* 
+*
 	#+Begin_QUOTE
 	How we ended up using Linux!!
 	#+END_QUOTE
-	
-# * Today's Agenda!!!  
-# 	- Free And Open Source Softwares 
+
+# * Today's Agenda!!!
+# 	- Free And Open Source Softwares
 # 	- What is Linux
 # 	- History and Evolution
 # 	- Distro Watch
 # 	- A little more about Linux
-# 	- How it works 
+# 	- How it works
 
-* What's Free Software? 
+* What's Free Software?
 	#+BEGIN_QUOTE
 	The users have the freedom to run,copy,distribute,study,change and improve the software.
 	#+END_QUOTE
 	 - Software that respects user's freedom and community
 	 - Matter Of Liberty Not Price, which everyone deserves
 
-* Software Freedoms  
+* Software Freedoms
 	- Freedom 0: Run The Program As You Wish
 	- Freedom 1: Access the source code, study how program works and change it
 
-* Software Freedoms 
+* Software Freedoms
 	- Freedom 2: Redistribute copies so you can help your neighbour
-	- Freedom 3: Distribute copies of the modified versions 
+	- Freedom 3: Distribute copies of the modified versions
 
 * Free Software != Freeware
   :PROPERTIES:
@@ -88,13 +88,13 @@
   :END:
 
 
-* What's Open Source? 
+* What's Open Source?
 	- Developed as public collaboration and made publicly available
 	- Technically Superior than Proprietary Softwares
 
-* Open Source vs Free Softwares 
-	
-* Some Awesome Open Source Projects 
+* Open Source vs Free Softwares
+
+* Some Awesome Open Source Projects
 	|-----------------------+-----------------+--------------|
 	| Programming languages | Frameworks      | Applications |
 	|-----------------------+-----------------+--------------|
@@ -106,25 +106,25 @@
 	| Python                | Wordpress       | MySql        |
 	| Ruby                  | Rails           | Apache Spark |
 	| Bash Shell            | NodeJS          | Redis        |
-	
-* 
+
+*
 * What is Linux ?
 	#+BEGIN_QUOTE
 	Linux is the open source computer operating system based on UNIX.
 	#+END_QUOTE
 	- "Linux" == "Kernel" + set of tools,services and programs
-	- Also called GNU/Linux 
+	- Also called GNU/Linux
 	- Developed In Collaboration Of People Around The World
-	- More than 18 million lines of code 
+	- More than 18 million lines of code
 
-* History and Evolution 
+* History and Evolution
   :PROPERTIES:
   :reveal_background: ./images/linus.jpeg
 	:reveal_background_size: 300px
   :reveal_background_trans: slide
   :END:
 
-* 
+*
   - Started = April 1991, Announced = August 1991
 	- Free And Open Source Alternative To *Minix*
 	- Originally named: Freak + x = "Freax"
@@ -135,7 +135,7 @@
 	It's Everywhere.
 	#+END_QUOTE
 
-* Some Stats 
+* Some Stats
 	- Of the top one million domains,Linux is the operating system for 95% of them
 	- Over 86.2% of smartphones run Anroid
 	- Among Top 500 Fastest Supercomputers In The World,More Than 98% Of Them Run On Linux
@@ -149,20 +149,20 @@
 	#+ATTR_REVEAL: :frag frag-style
 	- Because It's Open Source
 	- Zero Cost Of Entry
-	- Stable, Reliable and Secure 
+	- Stable, Reliable and Secure
 	- Huge community and very rapid bug fixes
 	- Package Management
 	- Compatibility
 	- Fun and Easy to use
 
-* 
+*
   :PROPERTIES:
   :reveal_background: ./images/github-linux.png
 	:reveal_background_size: 800px
   :reveal_background_trans: linear
   :END:
 
-* 	
+*
   :PROPERTIES:
   :reveal_background: ./images/linux-timeline.svg
 	:reveal_background_size: 900px
@@ -170,7 +170,7 @@
   :END:
 
 * Linux Vs Other Operating Systems
-	
+
 
 
 * HoW To Get Started?
@@ -198,40 +198,40 @@
 	:reveal_background_size: 800px
   :END:
 
-* 
+*
   :PROPERTIES:
   :reveal_background: ./images/linuxbootprocess.png
   :reveal_background_trans: linear
 	:reveal_background_size: 700px
   :END:
 
-* Conclusion 
+* Conclusion
 	- Linux is the most prolific software ever written
   #+BEGIN_SRC sh
   apt-get source linux-image-$(uname -r)
   #+END_SRC
 
 
-* For more information 
-	#+BEGIN_SRC js 
+* For more information
+	#+BEGIN_SRC js
   	info: {
   			rajan: {
     				"twitter": "@cdrrazan",
     				"github": "cdrrazan",
-    				"email": "social@cdrrazan.me"
+    				"email": "hello@cdrrazan.com"
   			},
   			sabin: {
   					"github": "neymarsabin"
   			}
   	}
 	#+END_SRC
-	
-	- Join *dev-circle-np.github.io*
-	
 
-	
+	- Join *dev-circle-np.github.io*
+
+
+
 * Thank You
 	#+BEGIN_QUOTE
 	Any Questions??
 	#+END_QUOTE
-	
+
